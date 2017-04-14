@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/17/user/314455).
-* Наставник: `Денис Верхотуров`(https://htmlacademy.ru/profile/id56756).
+* Наставник: [Денис Верхотуров](https://htmlacademy.ru/profile/id56756).
 
 ---
 
