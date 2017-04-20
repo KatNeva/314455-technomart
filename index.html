@@ -4,31 +4,33 @@
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
   </head>
+  
 <body>
     <header class="user-header">
       <div class="user-container">
         <nav class="user-navigation">
-          <ul>
-            <li>
+          
              <a class="logo" href="www.technomart.ru">Техномарт</a>
               <img src="logo.png" width="..." height="..." alt="Техномарт">
-            </li>
-            <li>
+            
+              <img src="search.png" width="..." height="..." alt="Поиск">
               <form action="https://echo.htmlacademy.ru" method="get">
               <label for='search-field'>Поиск:</label>
                 <input type="text" name="find" id='search-field'>
-        
-            </li>
-            <li>
-              <a class="btn" href="#">Закладки</a>
-            </li>
-            <li>
-              <a class="btn" href="#">Корзина</a>
-            </li>
-            <li>
-              <a class="btn" href="#">Оформить заказ</a>
-            </li>
-          </ul>
+            
+              <img src="favorites.png" width="..." height="..." alt="Закладки">
+              <form action="https://echo.htmlacademy.ru" method="post">
+              <label for='favorites-field'>Закладки:</label>
+                <input type="text" name="favorites" value='0' id='favorites-field'>
+              
+              <img src="cart.png" width="..." height="..." alt="Корзина">
+              <form action="https://echo.htmlacademy.ru" method="post">
+              <label for='cart-field'>Корзина:</label>
+                <input type="text" name="cart" value='0' id='cart-field'>
+            
+          
+              <input type='submit' value='Оформить заказ'>
+          
         </nav>
       </div>
     </header>
