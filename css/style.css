@@ -21,3 +21,39 @@ body {
       font-weight: normal;
       font-family: "Cuprum", "Serif", "sans serif";
     }
+.clearfix: :after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+.main-header {
+    background-color: rgba(0, 128, 0, 0.2);
+}
+.header-container {
+  width: 940px;
+}
+.user-navigation {
+  width: 1200px;
+
+  margin: auto;
+
+}
+.about {
+  float: left;
+  width: 205px;
+}
+.contacts {
+  float: left;
+  width: 301px;
+}
+.user-block {
+  float: right;
+  width: 300px;
+}
+.section-navigation {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+  background-color: rgba(255, 45, 82, 0.2);
+}
